@@ -31,10 +31,13 @@ section img {
     filter: brightness(60%);
 }
 #big-banner {
-    width: 100%;
     height: 400px;
+}
+.images {
+    width: 100%;
     object-fit: cover;
     border-radius: 10px;
+    height: 180px;
 }
 .text-image {
     color: white;
@@ -46,9 +49,6 @@ section img {
 
 #secondasezione {
     margin: 20px;
-    /* debug */
-    background-color: blue;
-    height: 500px;
 }
 header::after, #primasezione::after, #secondasezione::after, footer::after {
     content: "";
@@ -58,18 +58,12 @@ header::after, #primasezione::after, #secondasezione::after, footer::after {
 
 .superiore {
     width: 100%;
-    /* debug */
-    background-color: rgb(80, 196, 231);
-    height: 20%;
 }
 
 .little-section {
     float: left;
     width: 23%;
     margin: 1%;
-/* debug */
-    height: 75%;
-    background-color: rgb(80, 196, 231);
 }
 
 #centrale {
