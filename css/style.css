@@ -1,4 +1,8 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     width: 1000px;
     margin: auto;
@@ -6,9 +10,6 @@ body {
 
 header {
     margin: 20px;
-    /* debug */
-    background-color: violet;
-    /* height: 100px; */
 }
 #logo {
     border-right: 2px solid grey;
@@ -24,9 +25,23 @@ header div li {
 
 #primasezione {
     margin: 20px;
-    /* debug */
-    background-color: bisque;
-    height: 300px;
+    position: relative;
+}
+section img {
+    filter: brightness(60%);
+}
+#big-banner {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.text-image {
+    color: white;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    right: 50%;
 }
 
 #secondasezione {
