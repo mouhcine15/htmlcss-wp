@@ -80,7 +80,8 @@ header::after, #primasezione::after, #secondasezione::after, footer::after {
 
 footer {
     margin: 20px;
-/* debug */
-    background-color: rgb(131, 18, 236);
-    height: 50px;
+    text-align: center;
+}
+#cuore {
+    color: red;
 }
